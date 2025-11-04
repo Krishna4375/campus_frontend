@@ -4,3 +4,8 @@ dist/
 build/
 .env
 .env.local
+"node_modules/" 
+".next/" 
+".env" 
+"npm-debug.log" 
+"dist/" 
