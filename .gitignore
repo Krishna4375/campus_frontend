@@ -1,11 +1,18 @@
+# Ignore node modules and build files
 node_modules/
 .next/
 dist/
 build/
+*.log
+
+# Ignore environment files
 .env
 .env.local
-"node_modules/" 
-".next/" 
-".env" 
-"npm-debug.log" 
-"dist/" 
+.env.development
+.env.production
+.env.test
+
+# Ignore system and IDE files
+.vscode/
+.DS_Store
+Thumbs.db
