@@ -32,7 +32,7 @@ import { NotificationCenter } from "@/components/notification-center"
 // Note: The useEvents context is removed as we are now using direct API calls.
 
 // Define the base URL for your backend API
-const API_BASE_URL = "https://campus-connect-1-mkae.onrender.com/api"
+const API_BASE_URL = "https://backend-1-8tb9.onrender.com/api"
 
 interface PRAdminDashboardProps {
   user: { name: string; email: string; role?: string }
