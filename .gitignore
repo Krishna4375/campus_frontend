@@ -18,3 +18,25 @@ build/
 Thumbs.db
 "node_modules/" 
 ".next/" 
+
+# Ignore node modules and build files
+node_modules/
+.next/
+dist/
+build/
+*.log
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore system and IDE files
+.vscode/
+.DS_Store
+Thumbs.db
+"node_modules/" 
+".next/" 
+
